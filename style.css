@@ -1,0 +1,135 @@
+
+*{
+    font-family: CAT Rhythmus Regular;
+}
+
+
+body {
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100px 4fr;
+}
+
+.a {
+    grid-row: 1 /-1;
+    background-color: #23a0c4;
+    ;
+    color: #204666;
+    text-align: center;
+}
+
+.b {
+    /*grid-column: 1/-1;*/
+    background: url('belle-plage-tropicale-mer.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+hr {
+    color: #204666;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('passeport-valise-rouge-avion-jouet.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    background: #eeeeee6d;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #FFFF;
+    ;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #FFFF;
+    font-size: 1.2em;
+    pointer-events: none;
+    transition: .5s;
+    font-style: bold;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.input-box ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #FFF;
+    font-size: 1.5em;
+    top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #23a0c4;
+    ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #001b38;
+}
+
+.b {
+    background-color: #204666
+}
+
+.ze9zou9 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bg {
+    font-size: 2em;
+}
